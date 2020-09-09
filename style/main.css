@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background: linear-gradient(20deg, #F6EFD2, #6B8E23);
+    font-size: 0;
+    padding: 140px 150px;
+}
+
+figure {
+    display: inline-block;
+    margin: 0 24px;
+    overflow: hidden;
+    outline: 5px solid white;
+}
+
+img {
+    transition: transform 0.5s ease;
+    width: 300px;
+    height: 350px;
+    
+    object-fit: cover;
+}
+
+img:hover {
+
+    transform: scale(1.25) rotate(-5deg);
+    cursor: pointer;
+}
